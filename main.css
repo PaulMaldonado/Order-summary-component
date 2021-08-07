@@ -56,10 +56,10 @@
     font-size: .9em !important;
 }
 
-span.price {
+.price {
     color: var(--dark-blue);
     font-size: .8em;
-    font-weight: 300;
+    font-weight: 100;
     font-family: var(--font-family-variable);
 }
 
