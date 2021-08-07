@@ -48,11 +48,12 @@
     border-top-right-radius: 8px;
 }
 
+
 .title-music {
     font-family: var(--font-family-variable);
     color: var(--dark-blue);
     font-weight: bold;
-    font-size: .9em;
+    font-size: .9em !important;
 }
 
 span.price {
@@ -67,4 +68,29 @@ span.price {
     font-family: var(--font-family-variable);
     font-size: .8em;
     font-weight: 700;
+}
+
+/* Estilos para el area de botones */
+.btn-payment {
+    background-color: var(--bright-blue);
+    color: var(--very-pale-blue);
+    font-family: var(--font-family-variable);
+    font-size: .9em !important;
+    border-radius: 8px;
+}
+
+.btn-payment:hover {
+    background-color: var(--bright-blue);
+    color: var(--very-pale-blue);
+    font-family: var(--font-family-variable);
+    font-size: .9em !important;
+    border-radius: 8px;
+}
+
+.cancel-order {
+    text-align: center;
+    font-family: var(--font-family-variable);
+    font-size: .8em;
+    color: var(--desaturated-blue);
+    font-weight: 400;
 }
