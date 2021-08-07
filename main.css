@@ -1,9 +1,70 @@
+/* Variables de estilos de todo el sitio */
 :root {
-    --font-family: font-family: 'Red Hat Display', sans-serif;
+    --font-family-variable: 'Red Hat Display', sans-serif;
     --font-size-pharagraph: 16px;
     --pale-blue: hsl(225, 100%, 94%);
     --bright-blue: hsl(245, 75%, 52%);
     --very-pale-blue: hsl(225, 100%, 98%);
     --desaturated-blue: hsl(224, 23%, 55%);
     --dark-blue: hsl(223, 47%, 23%);
+}
+
+/* Estilos de la imagen de fondo de todo el cuerpo de la página web */
+.background-body {
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--pale-blue);
+}
+
+/* Estilos para el título y subtítulo de la card */
+.title-order {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    font-family: var(--font-family-variable);
+    color: var(--dark-blue) !important;
+}
+
+.subtitle-order {
+    font-size: var(--font-size-pharagraph);
+    font-family: var(--font-family-variable);
+    text-align: center;
+    font-weight: 400;
+    color: var(--desaturated-blue);
+}
+
+/* Estilos para el area de el incono de musica */
+.shadow-music {
+    background-color: var(--very-pale-blue);
+    width: auto;
+    height: auto;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.title-music {
+    font-family: var(--font-family-variable);
+    color: var(--dark-blue);
+    font-weight: bold;
+    font-size: .9em;
+}
+
+span.price {
+    color: var(--dark-blue);
+    font-size: .8em;
+    font-weight: 300;
+    font-family: var(--font-family-variable);
+}
+
+.title-change {
+    color: var(--bright-blue) !important;
+    font-family: var(--font-family-variable);
+    font-size: .8em;
+    font-weight: 700;
 }
